@@ -19,4 +19,10 @@
     <Project Path="Tyuiu.VorontsovAS.Sprint1.Task3.V17.Test/Tyuiu.VorontsovAS.Sprint1.Task3.V17.Test.csproj" />
     <Project Path="Tyuiu.VorontsovAS.Sprint1.Task3.V17/Tyuiu.VorontsovAS.Sprint1.Task3.V17.csproj" />
   </Folder>
+  <Folder Name="/Task4/">
+    <Project Path="Tyuiu.VorontsovAS.Sprint1.Task4.V27.Lib/Tyuiu.VorontsovAS.Sprint1.Task4.V27.Lib.csproj" Id="1f56a3c8-3341-485b-bf92-adc6b9a197c8" />
+    <Project Path="Tyuiu.VorontsovAS.Sprint1.Task4.V27.Test/Tyuiu.VorontsovAS.Sprint1.Task4.V27.Test.csproj" Id="24fb50d8-88b9-4aac-8348-2eb1daf93e11" />
+    <Project Path="Tyuiu.VorontsovAS.Sprint1.Task4.V27/Tyuiu.VorontsovAS.Sprint1.Task4.V27.csproj" Id="96e30adf-7328-41bb-a584-ab23a16adc70" />
+  </Folder>
+  <Folder Name="/Task5/" />
 </Solution>
