@@ -36,7 +36,7 @@ namespace Tyuiu.VorontsovAS.Sprint1.Task5.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Примерный ответ: " + DS.DistanceBetweenDots(x1, x2, y1, y2));
+            Console.WriteLine("Примерный ответ: " + DS.DistanceBetweenDots(x1, y1, x2, y2));
             Console.ReadLine();
         }
     }

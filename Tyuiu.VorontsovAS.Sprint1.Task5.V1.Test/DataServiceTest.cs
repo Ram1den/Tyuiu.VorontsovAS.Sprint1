@@ -9,10 +9,10 @@ namespace Tyuiu.VorontsovAS.Sprint1.Task5.V1.Test
         {
             DataService DS = new DataService();
             double x1 = 0;
-            double x2 = 3;
             double y1 = 4;
+            double x2 = 3;
             double y2 = 0;
-            var res = DS.DistanceBetweenDots(x1, x2, y1, y2);
+            var res = DS.DistanceBetweenDots(x1, y1, x2, y2);
             int wait = 5;
             Assert.AreEqual(wait, res);
         }

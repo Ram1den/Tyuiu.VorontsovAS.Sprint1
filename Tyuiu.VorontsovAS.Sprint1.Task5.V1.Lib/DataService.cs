@@ -5,7 +5,7 @@ namespace Tyuiu.VorontsovAS.Sprint1.Task5.V1.Lib
     {
         public int DistanceBetweenDots(double x1, double y1, double x2, double y2)
         {
-            double z = (Math.Sqrt(((x1 - y1) * (x1 - y1)) + ((x2 - y2) * (x2 - y2))));
+            double z = (Math.Sqrt(((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2))));
             int g = Convert.ToInt32(z);
             return g;
         }
