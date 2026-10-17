@@ -7,31 +7,23 @@ namespace Tyuiu.VorontsovAS.Sprint1.Task6.V10.Lib
     {
         public string DeleteMiddleLetter(string text)
         {
-            if (string.IsNullOrWhiteSpace(text))
-                return text;
-
             var result = new StringBuilder();
-            // Важно: удаляем пустые записи, чтобы не было лишних пробелов
-            var words = text.Split(new[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+            var words = text.Split(' ');
 
             for (int i = 0; i < words.Length; i++)
             {
                 string word = words[i];
 
-                // Обрабатываем только слова нечётной длины
                 if (word.Length % 2 == 1 && word.Length > 0)
                 {
                     int middleIndex = word.Length / 2; // для нечётной длины это ровно середина
                     word = word.Remove(middleIndex, 1);
                 }
-
                 result.Append(word);
-
-                // Добавляем пробел только между словами
+                
                 if (i < words.Length - 1)
                     result.Append(' ');
             }
-
             return result.ToString();
         }
         /*
